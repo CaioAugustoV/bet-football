@@ -7,7 +7,7 @@ const Title = styled.h1`
   font-size: 4rem;
   text-align: center;
   text-decoration: none;
-  color: blue;
+  color: ${({ theme }) => theme.colors.primary};
 `;
 
 const IndexPage: NextPage = () => {
