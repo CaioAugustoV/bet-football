@@ -17,9 +17,10 @@
     "baseUrl": "./src",
     "rootDir": "./src",
     "paths": {
-      "@redux/*": ["redux/*"]
+      "@redux/*": ["redux/*"],
+      "@styles/*": ["styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "jest.config.ts", "jest.setup.ts"]
 }
