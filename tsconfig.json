@@ -18,7 +18,9 @@
     "rootDir": "./src",
     "paths": {
       "@redux/*": ["redux/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+      "@screens/*": ["screens/*"],
+      "@components/*": ["components/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

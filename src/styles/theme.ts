@@ -4,5 +4,6 @@ export default {
   green: "#15BF0F",
   waring: "#BFA90F",
   red: "#BF0F0F",
-  background: "#191B34",
+  background: "#1D1D22",
+  white: "#FFFFFF",
 };
