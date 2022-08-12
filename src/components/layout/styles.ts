@@ -57,7 +57,9 @@ export const IconTarget = styled.div`
   height: 24px;
 `;
 
-export const Main = styled.div``;
+export const Main = styled.div`
+  padding: 40px 20px;
+`;
 
 export const Footer = styled.span`
   position: absolute;

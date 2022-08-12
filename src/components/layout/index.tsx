@@ -9,7 +9,7 @@ const Layout: React.FC<IProps> = ({ children }) => {
           ©2022 - <span>BetFootball</span> | All rights reserved
         </Styles.Footer>
         <h1>
-          <span>Bet</span> Football
+          <span>Bet</span>Football
         </h1>
         <div>
           <Styles.IconHome />
