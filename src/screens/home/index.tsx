@@ -1,12 +1,10 @@
 import Layout from "@components/layout";
-import Input from "@screens/home/components/input";
+import Header from "./components/header";
 
 const Home = () => {
   return (
     <Layout>
-      <Input />
-      {/* <img src="https://media.api-sports.io/football/teams/33.png" /> */}
-      {/* Hello World */}
+      <Header />
     </Layout>
   );
 };

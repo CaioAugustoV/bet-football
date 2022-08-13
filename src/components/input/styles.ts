@@ -4,7 +4,7 @@ export const Cointain = styled.div``;
 
 export const Label = styled.div`
   color: ${({ theme }) => theme.colors.white};
-  font-size: 14px;
+  font-size: ${({ theme }) => theme.font.size.medium};
   margin-bottom: 6px;
 `;
 
@@ -15,7 +15,7 @@ export const Input = styled.input`
   width: 250px;
   padding: 5px 10px;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: ${({ theme }) => theme.font.size.medium};
   transition: 0.5s ease;
   color: ${({ theme }) => theme.colors.primary};
   :focus {

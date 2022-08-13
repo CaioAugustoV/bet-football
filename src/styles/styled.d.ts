@@ -11,5 +11,12 @@ declare module "styled-components" {
       white: string;
       background: string;
     };
+    font: {
+      size: {
+        small: string;
+        medium: string;
+        large: string;
+      };
+    };
   }
 }

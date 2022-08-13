@@ -6,7 +6,7 @@ export const Cointain = styled.div`
 
 export const Menu = styled.div`
   border-right: 1px solid ${({ theme }) => theme.colors.secondary};
-  width: 250px;
+  width: 280px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,8 +37,8 @@ export const Menu = styled.div`
     }
     > p {
       color: ${({ theme }) => theme.colors.white};
-      margin-left: 20px;
-      font-size: 16px;
+      margin-left: 15px;
+      font-size: ${({ theme }) => theme.font.size.medium};
     }
   }
 `;
@@ -59,6 +59,7 @@ export const IconTarget = styled.div`
 
 export const Main = styled.div`
   padding: 40px 20px;
+  width: 100%;
 `;
 
 export const Footer = styled.span`
@@ -67,7 +68,7 @@ export const Footer = styled.span`
   padding: 0 20px;
   text-align: center;
   color: ${({ theme }) => theme.colors.white};
-  font-size: 12px;
+  font-size: ${({ theme }) => theme.font.size.medium};
   cursor: default;
   user-select: none;
   > span {
